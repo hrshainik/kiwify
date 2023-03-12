@@ -25,7 +25,7 @@ const Signup = () => {
 
   const validateEmails = () => {
     // Define a regular expression for email validation
-    const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
 
     // Check if both emails are not empty and are valid
     if (
